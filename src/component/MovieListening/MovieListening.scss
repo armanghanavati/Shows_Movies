@@ -1,0 +1,21 @@
+@import "../../common/color.scss";
+
+.movie_list{
+    margin:20px 0px; 
+    h2{
+        color: $font_secendery;
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+}
+
+.movie_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(220px, 1fr)) ;
+    grid-gap:15px;
+}
+
+.text-list{
+    padding: 10px 0;
+    color: brown;
+}
